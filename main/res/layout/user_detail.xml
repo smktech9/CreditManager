@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/pink">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/rsz_user"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="90dp"
+        />
+
+    <TextView
+        android:id="@+id/nameTag1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+        android:text="Name : "
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="cursive"/>
+
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/nameTag1"
+        android:layout_marginTop="200dp"
+        android:textSize="20sp"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/emailTag1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="250dp"
+        android:text="Email : "
+        android:textSize="20sp"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/email1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/emailTag1"
+        android:layout_marginTop="250dp"
+        android:textSize="20sp"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/creditTag1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="300dp"
+        android:text="Credits : "
+        android:textSize="20sp"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/credits1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/creditTag1"
+        android:layout_marginTop="300dp"
+        android:textSize="20sp"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/noOfCreditsTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="350dp"
+        android:text="No. of credits to transfer : "
+        android:textSize="20sp"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/white"/>
+
+    <EditText
+        android:id="@+id/noOfCredits"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:backgroundTint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="335dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textCursorDrawable="@null"
+        android:maxLength="3"
+        android:inputType="number"
+        android:fontFamily="cursive"
+        android:layout_toRightOf="@+id/noOfCreditsTag"/>
+
+    <Button
+        android:id="@+id/transferCredits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="100dp"
+        android:text="Transfer credits"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:fontFamily="cursive"
+        android:background="@drawable/buttonshape"
+        />
+
+</RelativeLayout>
